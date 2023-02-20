@@ -7,6 +7,10 @@
     text-align: center;
     padding : 100px;
     background-image : url(/partie_html/image_web/img-pirate-ship.jpg) ;
+    background-position: center;
+    width: 75em;
+    height: 15em;
+    
 }
 
 /* img:hover {
@@ -50,9 +54,15 @@ a{
 a:focus {
     background-color: aqua;
     color:white;
-    outline-color : deeppink;
+    outline-color : deeppink;   
 }
 
 a:visited{
     color:yellowgreen
+}
+
+footer {
+    text-align : center;
+    font-size: 2.5em;
+    /* background: conic-gradient(90deg,#320d69, #b91818 ) */
 }
