@@ -15,13 +15,14 @@ h1, h2 {
 }
 
 .banniere {
+    font-weight: 900;
+    text-align: center;
     padding : 100px;
-    background-image: "/partie_html/image_web/img-pirate-ship.jpg" ;
+    background-image : url(/partie_html/image_web/img-pirate-ship.jpg) ;
 }
 body {
+
     background: linear-gradient(90deg, #8360c3, #2ebf91);
-    
-    background-color: ;
     font-family: Arial, Helvetica, sans-serif, white;
-    justify-content: center;
+    text-align: center;
 }
