@@ -26,7 +26,13 @@ body {
 }
 
 p {
-    color : #E4B5AB;
+    color : #080808;
+    margin : auto;
+    padding : 2em;
+    border: 1em dotted black;
+    text-align: justify;
+    text-align: center;
+    background-color: pink;
 }
 
 h1, h2 {
@@ -65,4 +71,20 @@ footer {
     text-align : center;
     font-size: 2.5em;
     /* background: conic-gradient(90deg,#320d69, #b91818 ) */
+}
+
+.conteneur {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around; /* permet de gérer la répartition de la position des conteneur */
+    height: 600px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+
+}
+
+.element1 {
+    order : 1;
+    flex : 1; 
 }
